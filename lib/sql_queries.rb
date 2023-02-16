@@ -15,7 +15,7 @@ end
 
 def selects_oldest_bear_and_returns_name_and_age
   # "Write your SQL query here"
-  "SELECT bears.name, bears.age FROM bears ORDER BY bears.age DESC LIMIT 1"
+  "SELECT bears.name, bears.age FROM bears ORDER BY bears.age DESC LIMIT 1" # Limit clause limits the number of rows returned to 1 so the first row of the ordered list will be returned
 end
 
 def select_youngest_bear_and_returns_name_and_age
